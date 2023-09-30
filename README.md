@@ -21,7 +21,7 @@ ffmpeg -i hey.mp4 \
 -map a:0 -c:a:3 aac -b:a:3 24k -ac 1 \
 -map a:0 -c:a:4 aac -b:a:4 24k -ac 1 \
 -f hls \
--hls_time 2 \
+-hls_time 4 \
 -hls_playlist_type vod \
 -hls_flags independent_segments \
 -hls_segment_type mpegts \
